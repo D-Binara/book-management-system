@@ -74,7 +74,7 @@ functionalities to add, edit, delete, and list books, with a clean and professio
 - CSS: Custom styles and Bootstrap
 
 ## 📹 Video Demo
-[Click here to watch the demo video](readmeDemo/demo.mp4)
+[Click here to watch the demo video](demo.mp4)
 
 
 ## 📄 License
