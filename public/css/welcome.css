@@ -1,0 +1,65 @@
+/* Color Palette */
+:root {
+    --primary: #000000;
+    --secondary: #c1baa5;
+    --accent: #bdd7a8;
+    --background: #F4F1EB;
+    --text: #232323;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.image-side img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    max-width: 600px;
+    text-align: left;
+    padding: 20px;
+}
+
+.content h1 {
+    font-size: 4rem;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.5rem;
+    color: var(--secondary);
+    margin-bottom: 40px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: none;
+    color: var(--background);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary);
+    color: var(--text);
+}
+
+.btn-accent {
+    background-color: var(--accent);
+    color: var(--background);
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-accent:hover {
+    background-color: var(--primary);
+    color: var(--background);
+}
